@@ -8,10 +8,52 @@
 
     /* fonts */
     --bodytext: "Segoe UI";
-    --heading: "BC Alphapipe";
+    --heading: 'BC Alphapipe';
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    
 }
+ /* fonts*/
+h1{
+    font: var(--heading);
+    font-size: 209px;
+    font-weight: bold;
+    font-family: 'BC Alphapipe'
+}
+
+h2{
+    font: var(--heading);
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'BC Alphapipe';
+}
+ /* nav bar */
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 177px;
+    background-color: var(--darkblue);
+    text-align: center;
+    /*position: fixed;*/
+    overflow: auto;
+}
+
+ul a.active{
+    background-color: var(--yellow);
+}
+
+li a {
+display: block;
+text-decoration: none;
+color: white;
+width: 177px;
+height: 170px;
+}
+
+ /*delete later*/
+li a:hover {
+    background-color: white;
+    color: black;
+  }
