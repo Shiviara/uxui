@@ -1,0 +1,17 @@
+:root {
+    /* colors */
+    --orange: #E2863A;
+    --yellow: #FAEEA0;
+    --red: #87292B;
+    --lightblue: #7683A2;
+    --darkblue: #262D40;
+
+    /* fonts */
+    --bodytext: "Segoe UI";
+    --heading: "BC Alphapipe";
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
