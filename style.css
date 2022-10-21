@@ -15,3 +15,15 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     
 }
+
+h1{
+    font: var(--heading);
+    font-size: 209px;
+    font-weight: bold;
+}
+
+h2{
+    font: var(--heading);
+    font-size: 100px;
+    font-weight: bold;
+}
