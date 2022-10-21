@@ -3,4 +3,4 @@ Info screen for grundfos kollegiet
 
 <h1> Welcome
 <h2> Headings
-<h3> front page + caretaker (contact) + buttons (facilities)
+<h3> front page 3 + caretaker (contact) + buttons (facilities)
