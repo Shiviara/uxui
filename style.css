@@ -57,3 +57,18 @@ li a:hover {
     background-color: white;
     color: black;
   }
+/*contact*/
+#div1{
+    text-decoration:none;
+    color: black;
+    float: left;
+    width:33.33%;
+}
+#div2{
+    text-decoration: none;
+    color: black;
+    float: right;
+    width:23.33%;
+ 
+
+} 
