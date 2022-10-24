@@ -32,9 +32,9 @@ h2{
     font-weight: bold;
     font-family: 'BC Alphapipe';
 }
- /* nav bar */
+/* nav bar */
 
- .sidenav {
+.sidenav {
   height: 1031px;
   width: 177px;
   position: fixed;
