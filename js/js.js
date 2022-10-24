@@ -6,7 +6,7 @@
  //nav bar
 const NavBar = `
 <div class="sidenav">
-    <a href="../index/index.html">Home</a>
+    <a href="../front-page/index.html">Home</a>
     <a href ="../calendar/calendar">Calendar</a>
     <a href="../announcements/announcements.html">Announcments</a>
     <a href="../facilities/facilities.html">Facilities</a>
