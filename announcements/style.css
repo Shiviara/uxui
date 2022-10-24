@@ -14,7 +14,15 @@
 body{
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
     background-image: url(../images/an.background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
 }
+.screen{
+  width: 1195px;
+  height: 1920px;
+}
+
  /* fonts*/
 h1{
     font: var(--heading);
@@ -28,6 +36,8 @@ h2{
     font-size: 100px;
     font-weight: bold;
     font-family: 'BC Alphapipe';
+    position: sticky;
+    color: white;
 }
  /* nav bar */
 
@@ -64,4 +74,8 @@ h2{
     .sidenav a {font-size: 18px;}
   }
 
-/*contact*/ 
+
+  .icon{
+    height: 60px;
+    margin-left: 20px;
+  }
