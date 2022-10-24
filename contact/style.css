@@ -13,6 +13,10 @@
 
 body{
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
 }
  /* fonts*/
 h1{
@@ -28,39 +32,56 @@ h2{
     font-weight: bold;
     font-family: 'BC Alphapipe';
 }
- /* nav bar */
+/* nav bar */
 
-  .sidenav {
-    height: 1031px;
-    width: 177px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: var(--darkblue);
-    overflow-x: hidden;
-    padding-top: 59px;
+.sidenav {
+  height: 1031px;
+  width: 177px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--darkblue);
+  overflow-x: hidden;
+  padding-top: 59px;
+}
+
+.sidenav a {
+  padding: 14% 6px 14% 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: var(--yellow);
+  display: block;
+}
+
+.sidenav a:hover{
+  background-color: var(--lightblue);
+}
+
+.main{
+  margin-left: 177px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.icon{
+  height: 60px;
+  margin-left: 20px;
+}
+
+  /*contact*/
+  .top-content{
+    display: flex;
+    justify-content: space-between;
+  }
+  .lang{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
   }
   
-  .sidenav a {
-    padding: 35px 6px 35px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: var(--yellow);
-    display: block;
-  }
 
-  .sidenav a:hover{
-    background-color: var(--lightblue);
-  }
 
-  .main{
-    margin-left: 177px;
-  }
-
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
-
-/*contact*/ 
