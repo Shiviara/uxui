@@ -58,12 +58,6 @@ h2{
     margin-left: 177px;
   }
 
-<<<<<<< HEAD
- /*delete later*/
-li a:hover {
-    background-color: white;
-    color: black;
-  }
 /*contact*/
 #div1{
     text-decoration:none;
@@ -77,11 +71,8 @@ li a:hover {
     float: right;
     width:23.33%;
  
-
 } 
-=======
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
->>>>>>> d13dcaa0f058a074e042f5741db10539cbf65537
