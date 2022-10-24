@@ -63,4 +63,9 @@ h2{
     .sidenav a {font-size: 18px;}
   }
 
+  .icon{
+    height: 60px;
+    margin-left: 20px;
+  }
+  
 /*contact*/ 
