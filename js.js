@@ -7,11 +7,11 @@
 const NavBar = `
 <div class="sidenav">
     <a href="index.html">Home</a>
-    <a href = "calendar">Calendar</a>
-    <a href="announcments.html">Announcments</a>
+    <a href ="calendar">Calendar</a>
+    <a href="announcements.html">Announcments</a>
     <a href="facilities.html">Facilities</a>
-    <a href="ideapost.html">Ideas</a>
-    <a href = "contact.html">Contact</a>
+    <a href="ideas.html">Ideas</a>
+    <a href ="contact.html">Contact</a>
     </div>
 `
 
