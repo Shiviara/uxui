@@ -58,20 +58,8 @@ h2{
     margin-left: 177px;
   }
 
-/*contact*/
-#div1{
-    text-decoration:none;
-    color: black;
-    float: left;
-    width:50%;
-}
-#div2{
-    text-decoration: none;
-    color: black;
-    float: right;
-    width:50%;
- 
-} 
+/*contact*/ 
+
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
