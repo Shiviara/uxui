@@ -14,6 +14,9 @@
 body{
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
     background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
 }
  /* fonts*/
 h1{
@@ -31,38 +34,45 @@ h2{
 }
  /* nav bar */
 
-  .sidenav {
-    height: 1031px;
-    width: 177px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: var(--darkblue);
-    overflow-x: hidden;
-    padding-top: 59px;
-  }
-  
-  .sidenav a {
-    padding: 25px 6px 25px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: var(--yellow);
-    display: block;
-  }
+ .sidenav {
+  height: 1031px;
+  width: 177px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--darkblue);
+  overflow-x: hidden;
+  padding-top: 59px;
+}
 
-  .sidenav a:hover{
-    background-color: var(--lightblue);
-  }
+.sidenav a {
+  padding: 25px 6px 25px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: var(--yellow);
+  display: block;
+}
 
-  .main{
-    margin-left: 177px;
-  }
+.sidenav a:hover{
+  background-color: var(--lightblue);
+}
 
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+.main{
+  margin-left: 177px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.icon{
+  height: 60px;
+  margin-left: 20px;
+}
+
+  /*contact*/
   .top-content{
     display: flex;
     justify-content: space-between;
