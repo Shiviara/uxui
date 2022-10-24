@@ -24,6 +24,16 @@ h1{
     text-align: center;
     position: relative;
     font-size: 200px;
-    margin-top: 300px;
+    margin-top: 410px;
+    font-family: var(--heading);
+}
+
+h2{
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 100px;
+    margin-bottom: 399px;
+    margin-top: -150px;
     font-family: var(--heading);
 }
