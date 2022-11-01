@@ -32,7 +32,7 @@ header{
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	width: 100%;
+	
 }
 
 
@@ -52,6 +52,7 @@ header{
 #calendar ul.weekdays {
 	height: 40px;
 	background: #fbbb5b;
+
 }
 
 #calendar ul.weekdays li {
