@@ -10,3 +10,12 @@ body{
     background-size: 100%;
     position: fixed;
 }
+
+.an1{
+    box-sizing: content-box;
+    width: 1612px;
+    padding: 20px;
+    background-color: white;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
