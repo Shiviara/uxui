@@ -48,23 +48,22 @@ h3{
  /* nav bar */
 
   .sidenav {
-    height: 1031px;
-    width: 177px;
+    height: 100%;
+    width: 10%;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: var(--darkblue);
     overflow-x: hidden;
-    padding-top: 59px;
+    padding-top: 3%;
   }
   
   .sidenav a {
-    padding: 14% 6px 14% 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: var(--yellow);
-    display: block;
+    padding: 20% 5% 20% 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .sidenav a:hover{
@@ -81,6 +80,5 @@ h3{
   }
 
   .icon{
-    height: 60px;
-    margin-left: 20px;
+    width: 50%;
   }
