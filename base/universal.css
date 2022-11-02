@@ -13,10 +13,6 @@
 
 body{
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-    background-image: url(../images/an.background.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    position: fixed;
 }
 .screen{
   width: 1195px;
