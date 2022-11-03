@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   /* colors */
   --orange: #e2863a;
@@ -83,3 +84,22 @@ h2 {
   width: 60px;
   height: 60px;
 }
+=======
+HEAD
+  /*contact*/
+  body{
+    background-image: url(../images/con.background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
+  }
+  .top-content{
+    display: flex;
+    justify-content: space-between;
+  }
+  .lang{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+>>>>>>> 1c48c5a919a04cdc8c933e61977049f46c818503

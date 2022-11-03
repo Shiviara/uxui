@@ -1,0 +1,83 @@
+:root {
+    /* colors */
+    --orange: #E2863A;
+    --yellow: #FAEEA0;
+    --red: #87292B;
+    --lightblue: #7683A2;
+    --darkblue: #262D40;
+
+    /* fonts */
+    --bodytext: "Segoe UI";
+    --heading: 'BC Alphapipe';
+}
+
+body{
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+.screen{
+  width: 1195px;
+  height: 1920px;
+}
+
+ /* fonts*/
+h1{
+    font: var(--heading);
+    font-size: 209px;
+    font-weight: bold;
+    font-family: 'BC Alphapipe'
+}
+
+h2{
+    font: var(--heading);
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'BC Alphapipe';
+    position: sticky;
+    color: white;
+}
+
+h3{
+  font: var(--bodytext);
+  font-size: 60px;
+  font-weight: bold;
+  color: grey;
+  margin: 0px;
+}
+ /* nav bar */
+
+  .sidenav {
+    height: 100%;
+    width: 10%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--darkblue);
+    overflow-x: hidden;
+    padding-top: 3%;
+  }
+  
+  .sidenav a {
+    padding: 20% 5% 20% 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .sidenav a:hover{
+    background-color: var(--lightblue);
+  }
+
+  main{
+    margin-left: 20%;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .icon{
+    width: 50%;
+  }
