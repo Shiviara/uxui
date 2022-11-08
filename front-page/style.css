@@ -19,7 +19,7 @@ body{
 
 /* responsive */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
     body{
     background-image: url(../images/mobile/fr.mob.background.png);
     }

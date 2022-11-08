@@ -22,7 +22,7 @@ body{
 
 /* responsive */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
     body{
     background-image: url(../images/mobile/an.mob.background.png);
     background-repeat: no-repeat;
