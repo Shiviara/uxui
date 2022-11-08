@@ -1,0 +1,18 @@
+body{
+    background-image: url(../images/fr.background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
+    margin: 0;
+}
+
+#back {
+    position: fixed;
+    z-index: -5;
+    width: 100%;
+    height: auto;
+}
+
+.ic {
+    display: flex;
+}
