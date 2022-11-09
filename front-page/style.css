@@ -13,6 +13,7 @@ body{
     height: auto;
 }
 
+
 .ic {
     display: flex;
 }
@@ -27,10 +28,23 @@ body{
     #back {
         display: none;
     }
+
+    #mback {
+    display: show;
+    position: fixed;
+    z-index: -5;
+    width: 100%;
+    height: auto;
+    }
   }
 
   @media only screen and (min-width: 800px){
     #back{
         display: show;
     }
+
+    #mback{
+        display: none;
+    }
+
   }

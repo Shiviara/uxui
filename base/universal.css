@@ -104,6 +104,10 @@ h3{
     margin-right: 3%;
   }
 
+  #home{
+    display: none;
+  }
+
   /*fonts*/
   h2{
     font-size: 35px;
