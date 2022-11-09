@@ -16,8 +16,24 @@ body{
     width: auto;
     padding: 2%;
     background-color: white;
-    margin-top: 4%;
     margin-bottom: 4%;
+    margin-right: 2%;
+}
+
+p {
+    font-size: 40px;
+    color: black;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+main {
+    overflow: auto;
+}
+
+article {
+    overflow: auto;
+    /* try to make it responsive? */
+    height: 930px;
 }
 
 /* responsive */
@@ -31,6 +47,6 @@ body{
     }
 
     .an1{
-        padding: 5px;
+        padding: 10px;
     }
   }

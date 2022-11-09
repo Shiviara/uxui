@@ -114,6 +114,15 @@ h3{
   }
 
   h3{
-    font-size: 24px;
+    font-size: 25px;
+  }
+
+ /* annaouncemnts */
+  p {
+    font-size: 20px;
+  }
+
+  article {
+    height: 650px;
   }
 }
