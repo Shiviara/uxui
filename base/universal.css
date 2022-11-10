@@ -40,8 +40,8 @@ h3{
   color: grey;
   margin: 0px;
 }
- /* nav bar */
 
+ /* nav bar */
   .sidenav {
     height: 100%;
     width: 6%;
@@ -61,18 +61,8 @@ h3{
     padding-top: 0;
   }
 
-  /*
-  .sidenav a {
-    padding: 20% 5% 20% 5%;
-  }
-
-  .sidenav a:hover{
-    background-color: var(--lightblue);
-  }
-  */
-
   main{
-    margin-left: 235px;
+    margin-left: 13%;
   }
 
   .icon{
@@ -80,11 +70,26 @@ h3{
     padding-top: 20px;
   }
 
-/* responsive nav bar */
+/*mobile version*/
+  #MobHome {
+    display: none;
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .MobHeading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+
 @media only screen and (max-width: 800px) {
   /* nav bar and its consequences */
   .sidenav {
-    height: 10%;
+    height: 12%;
     width: 100%;
     bottom: 0;
     top: auto;
@@ -101,7 +106,11 @@ h3{
 
   main{
     margin-left: 3%;
-    margin-right: 3%;
+    /*margin-right: 3%;*/
+  }
+
+  #MobHome{
+    display: block;
   }
 
   #home{
@@ -118,7 +127,7 @@ h3{
     font-size: 25px;
   }
 
- /* annaouncemnts */
+ /* announcements */
   p {
     font-size: 20px;
   }
