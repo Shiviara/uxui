@@ -13,11 +13,7 @@
 
 body{
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-}
-
-.screen{
-  width: 1195px;
-  height: 1920px;
+    margin: 0;
 }
 
  /* fonts*/
@@ -44,40 +40,99 @@ h3{
   color: grey;
   margin: 0px;
 }
- /* nav bar */
 
+ /* nav bar */
   .sidenav {
     height: 100%;
-    width: 10%;
+    width: 6%;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: var(--darkblue);
     overflow-x: hidden;
-    padding-top: 3%;
-  }
-  
-  .sidenav a {
-    padding: 20% 5% 20% 5%;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .sidenav a:hover{
-    background-color: var(--lightblue);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: nowrap;
+    padding: 2%;
+    padding-top: 0;
   }
 
   main{
-    margin-left: 235px;
-  }
-
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    margin-left: 13%;
   }
 
   .icon{
-    width: 50%;
+    width: 100%;
+    padding-top: 20px;
   }
+
+/*mobile version*/
+  #MobHome {
+    display: none;
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .MobHeading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+
+@media only screen and (max-width: 800px) {
+  /* nav bar and its consequences */
+  .sidenav {
+    height: 12%;
+    width: 100%;
+    bottom: 0;
+    top: auto;
+    background-color: var(--darkblue);
+    overflow: hidden;
+    padding-left: 3%;
+    flex-direction: row;
+    padding-bottom: 0;
+  }
+
+  .icon {
+    width: 60%;
+  }
+
+  main{
+    margin-left: 3%;
+    /*margin-right: 3%;*/
+  }
+
+  #MobHome{
+    display: block;
+  }
+
+  #home{
+    display: none;
+  }
+
+  /*fonts*/
+  h2{
+    font-size: 35px;
+    margin-bottom: 4%;
+  }
+
+  h3{
+    font-size: 25px;
+  }
+
+ /* announcements */
+  p {
+    font-size: 20px;
+  }
+
+  article {
+    height: 650px;
+  }
+}
