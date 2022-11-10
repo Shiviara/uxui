@@ -1,21 +1,5 @@
-<<<<<<< Updated upstream
   /*contact*/
-  body{
-    background-image: url(../images/con.background.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
-  .top-content{
-    display: flex;
-    justify-content: space-between;
-  }
-  .lang{
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-  }
-=======
-/*contact*/
+ 
 body {
   background-image: url(../images/cont.background.png);
   background-repeat: no-repeat;
@@ -70,4 +54,3 @@ img.c-icons{
   width: 20px;
 height:20px ;
 }
->>>>>>> Stashed changes
