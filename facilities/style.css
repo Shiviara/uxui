@@ -1,6 +1,26 @@
+/* Root */
+@import url("../base/universal.css");
+
 body{
     background-image: url(../images/map.background.png);
     background-repeat: no-repeat;
     background-size: 100%;
     position: fixed;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    margin: 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
 }
