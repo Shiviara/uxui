@@ -1,18 +1,22 @@
 body{
-    background-color: #262D40;
+    background-image:url(../images/404\ page.png) ;
 }
-.com{
-    width:300px ;
-    height:700px ;
-    padding-left: 100px;
-    padding-top:180px ;
-}
-.rect{
+.nothing{
     display: flex;
-    gap: 20px;
+    float: right;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #E2863A;
+    margin-top: 20%;
+    margin-right: 10%;
 }
-.funny{
-    width: 50px;
-    height:80px ;
-    padding-top: 180px;
+p{
+    font-size: 60px;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+h4{
+    font-size: 40px;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 0%;
 }
