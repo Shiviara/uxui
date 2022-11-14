@@ -1,0 +1,57 @@
+/* Styling */
+body{
+   
+    background-image: url(../images/id.background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
+ 
+    top: -20px;
+    left: 240px;
+    width: 1620px;
+    height: 107px;
+}
+
+
+
+.firstText{
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    opacity: 1;
+    font: bold normal normal 40px/53px Segoe UI;
+}
+
+.secondText {
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    opacity: 1;
+    font: normal normal 40px/53px Segoe UI;
+}
+
+.qr {
+    text-align: center;
+    margin-top: 90px; 
+}
+
+.downText {
+    text-align: center;
+    font: italic normal normal 40px/53px Segoe UI;
+    letter-spacing: 2px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 100px; 
+}
+
+.lsw {
+    position: relative;
+    top: -1085px;
+    right: -1550px;
+}
+
+.firstText, .secondText{ 
+    line-height: 0.4;
+    position: relative;
+    top: 25px;
+}

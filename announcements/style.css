@@ -1,9 +1,3 @@
-/*display: block;
-background-color: white;
-padding ~8px? for web;
-margin
-*/
-
 body {
     background-image: url(../images/an.background.png);
     background-repeat: no-repeat;
@@ -32,8 +26,7 @@ main {
 
 article {
     overflow: auto;
-    /* try to make it responsive? */
-    height: 930px;
+    height: 100vh;
 }
 
 .AnHeading {
@@ -49,6 +42,33 @@ article {
     color: #A8A8A8;
     margin: 0;
     font-weight: normal;
+}
+
+/*Read more/less */
+#more {
+    display: none;
+}
+
+#more2 {
+    display: none;
+}
+
+#myBtn {
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    font-size: 40px;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #A8A8A8;
+}
+
+#myBtn2 {
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    font-size: 40px;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #A8A8A8;
 }
 
 /* responsive */
@@ -67,5 +87,15 @@ article {
 
     .date {
         font-size: 12px;
+    }
+
+    #myBtn {
+        font-size: 20px;
+        float: right;
+    }
+
+    #myBtn2 {
+        font-size: 20px;
+        float: right;
     }
   }
