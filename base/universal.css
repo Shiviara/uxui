@@ -62,7 +62,7 @@ h3{
   }
 
   main{
-    margin-left: 13%;
+    margin-left: 13vw;
   }
 
   .icon{
@@ -133,6 +133,6 @@ h3{
   }
 
   article {
-    height: 650px;
+    height: 77vh;
   }
 }
