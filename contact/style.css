@@ -1,17 +1,67 @@
-HEAD
-  /*contact*/
-  body{
-    background-image: url(../images/con.background.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    position: fixed;
-  }
-  .top-content{
-    display: flex;
-    justify-content: space-between;
-  }
-  .lang{
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-  }
+/*contact*/
+
+body {
+  background-image: url(../images/cont.background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.top-content {
+  display: flex;
+  justify-content: space-between;
+}
+.lang {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+.info {
+  color: white;
+}
+.info h3 {
+  color: white;
+}
+.top2 {
+  display: flex;
+  gap: 20%;
+}
+.name,
+.phone,
+.email,
+.alarm {
+  display: flex;
+  gap: 1%;
+  margin-bottom: 5%;
+}
+.top2 img {
+  width: 100px;
+  height: 120px;
+}
+
+img.c-icons {
+  width: 30px;
+  height: 30px;
+}
+.contacts {
+  background-color: white;
+  padding: 20px;
+  width: 370px;
+}
+.contacts-wrapper {
+  display: flex;
+  gap: 3%;
+  margin-bottom: 2%;
+}
+
+.last {
+  display: flex;
+  gap: 11px;
+}
+.fb{
+  font-size: 12px;
+}
+@media only screen and (max-width: 800px) {
+  
+}
+
+
+
