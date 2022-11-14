@@ -131,4 +131,24 @@ h3{
   p {
     font-size: 20px;
   }
+
+  article {
+    height: 77vh;
+  }
+}
+
+.button{
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  margin: 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50%;
+}
+
+#common{
+  
 }
