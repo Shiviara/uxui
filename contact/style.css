@@ -60,6 +60,18 @@ img.c-icons {
   font-size: 12px;
 }
 @media only screen and (max-width: 800px) {
+  body{
+    background-color: rgb(35, 35, 67);
+    background-size: cover;
+
+  }
+
+  .contacts-wrapper{
+    display: block;
+  }
+  .info{
+    display:inline;
+  }
   
 }
 
