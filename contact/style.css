@@ -22,6 +22,7 @@ body {
 }
 .top2 {
   display: flex;
+  justify-content: space-between;
   gap: 20%;
 }
 .name,
@@ -61,7 +62,7 @@ img.c-icons {
 }
 @media only screen and (max-width: 800px) {
   body{
-    background-color: rgb(35, 35, 67);
+    background-color: #7683A2;
     background-size: cover;
 
   }
