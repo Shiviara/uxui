@@ -13,7 +13,7 @@ body{
 }
 
 
-.main {
+.title {
     position: relative;
     top: 0px;
     right: 230px;
@@ -60,4 +60,8 @@ body{
     line-height: 0.4;
     position: relative;
     top: 25px;
+}
+
+.everything {
+    text-align:right;
 }
