@@ -140,15 +140,32 @@ h3{
 .button{
   border: none;
   color: white;
-  padding: 15px 15px;
+  padding: 4%;
   margin: 2%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  border-radius: 50%;
+  border-radius: 15%;
+  width: 50%;
+}
+
+em{
+  font-size: smaller;
 }
 
 #common{
-  
+  background-color: var(--orange);
+}
+
+#study{
+  background-color: var(--lightblue);
+}
+
+#laundry{
+  background-color: var(--red);
+}
+
+#cycle{
+  background-color: var(--darkblue);
 }
