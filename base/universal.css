@@ -136,14 +136,14 @@ h3{
 .button{
   border: none;
   color: white;
-  padding: 4%;
-  margin: 2%;
+  padding: 20%;
+  margin: 4%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   border-radius: 15%;
-  width: 50%;
+  width: 400%;
 }
 
 em{
@@ -164,7 +164,4 @@ em{
 
 #cycle{
   background-color: var(--darkblue);
-  
-
->>>>>>> f63f51e53770075248b2c03f7dcc4f2aa2d4b9e7
 }

@@ -8,9 +8,23 @@ body{
     position: fixed;
 }
 
+.big_container{
+    display: flex;
+    justify-content: center;
+}
+
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 20%;
+}
+.container2{
+    display: flex;
+    margin-left: 20%;
+}
+
+#im{
+    width: 100%;
 }
 
