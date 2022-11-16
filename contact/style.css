@@ -9,13 +9,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.lang {
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  margin-top: 2vh;
-  margin-right: 2vw;
-}
+
 .info {
   color: white;
 }
@@ -48,6 +42,7 @@ img.c-icons {
   background-color: white;
   padding: 20px;
   width: 370px;
+  box-sizing: content-box;
 }
 .contacts-wrapper {
   display: flex;
@@ -59,27 +54,33 @@ img.c-icons {
   display: flex;
   gap: 11px;
 }
-.fb{
+.fb {
   font-size: 12px;
 }
 @media only screen and (max-width: 800px) {
-  body{
-    background-color: #7683A2;
+  body {
+    background-color: #7683a2;
     background-size: cover;
-
   }
 
-  .contacts-wrapper{
+  .contacts-wrapper {
     display: block;
   }
-  .info{
-    display:inline;
+  .info {
+    display: inline;
   }
-  
+
   .lang {
     display: none;
   }
+  .last {
+    margin-left: 8%;
+  }
+  main {
+    margin-bottom: 15vh;
+  }
+  .contacts {
+    width: auto;
+    margin-right: 3vw;
+  }
 }
-
-
-

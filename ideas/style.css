@@ -5,15 +5,10 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     position: fixed;
- 
-    top: -20px;
-    left: 240px;
-    width: 1620px;
-    height: 107px;
 }
 
 
-.main {
+.title {
     position: relative;
     top: 0px;
     right: 230px;
@@ -52,12 +47,21 @@ body{
 
 .lsw {
     position: relative;
-    top: -1075px;
-    right: -1550px;
+    top: -1110px;
+    right: -1400px;
 }
 
 .firstText, .secondText{ 
     line-height: 0.4;
     position: relative;
     top: 25px;
+}
+
+.top-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+main {
+    width: 87vw;
 }

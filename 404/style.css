@@ -1,5 +1,10 @@
 body{
-    background-image:url(../images/404\ page.png) ;
+    background-color:  rgb(38, 45, 64);
+   /* background-image:url ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;*/
 }
 .nothing{
     display: flex;
@@ -13,12 +18,17 @@ body{
 p{
     font-size: 60px;
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    
+    
 }
 h4{
+    
     font-size: 40px;
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
     font-weight: normal;
     margin: 0%;
+    
+    
 }
 button{
     background-color: #E2863A;
@@ -31,6 +41,7 @@ button{
     font-size: 30px;
     margin: 20px 30px;
     cursor: pointer;
+    position: fixed;
 
 
 }
