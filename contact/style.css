@@ -9,13 +9,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.lang {
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  margin-top: 2vh;
-  margin-right: 2vw;
-}
+
 .info {
   color: white;
 }

@@ -5,11 +5,6 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     position: fixed;
- 
-    top: -20px;
-    left: 240px;
-    width: 1620px;
-    height: 107px;
 }
 
 
@@ -60,4 +55,13 @@ body{
     line-height: 0.4;
     position: relative;
     top: 25px;
+}
+
+.top-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+main {
+    width: 87vw;
 }
