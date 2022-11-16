@@ -13,6 +13,12 @@ body{
 }
 
 
+.main {
+    position: relative;
+    top: 0px;
+    right: 230px;
+}
+
 
 .firstText{
     text-align: center;
@@ -46,7 +52,7 @@ body{
 
 .lsw {
     position: relative;
-    top: -1085px;
+    top: -1075px;
     right: -1550px;
 }
 

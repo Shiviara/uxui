@@ -131,10 +131,6 @@ h3{
   p {
     font-size: 20px;
   }
-
-  article {
-    height: 77vh;
-  }
 }
 
 .button{
@@ -168,4 +164,7 @@ em{
 
 #cycle{
   background-color: var(--darkblue);
+  
+
+>>>>>>> f63f51e53770075248b2c03f7dcc4f2aa2d4b9e7
 }

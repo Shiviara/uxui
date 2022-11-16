@@ -13,6 +13,8 @@ body {
   border-radius: 50%;
   width: 60px;
   height: 60px;
+  margin-top: 2vh;
+  margin-right: 2vw;
 }
 .info {
   color: white;
@@ -22,6 +24,7 @@ body {
 }
 .top2 {
   display: flex;
+  justify-content: space-between;
   gap: 20%;
 }
 .name,
@@ -60,7 +63,22 @@ img.c-icons {
   font-size: 12px;
 }
 @media only screen and (max-width: 800px) {
+  body{
+    background-color: #7683A2;
+    background-size: cover;
+
+  }
+
+  .contacts-wrapper{
+    display: block;
+  }
+  .info{
+    display:inline;
+  }
   
+  .lang {
+    display: none;
+  }
 }
 
 
