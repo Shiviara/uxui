@@ -34,14 +34,6 @@ h2{
     margin-top: 6%;
 }
 
-h3{
-  font: var(--bodytext);
-  font-size: 60px;
-  font-weight: bold;
-  color: grey;
-  margin: 0px;
-}
-
  /* nav bar */
   .sidenav {
     height: 100%;
@@ -149,14 +141,14 @@ h3{
 .button{
   border: none;
   color: white;
-  padding: 4%;
-  margin: 2%;
+  padding: 20%;
+  margin: 8%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 45px;
   border-radius: 15%;
-  width: 50%;
+  width: 200%;
 }
 
 em{
@@ -177,5 +169,4 @@ em{
 
 #cycle{
   background-color: var(--darkblue);
-  
 }
