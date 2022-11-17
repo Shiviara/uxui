@@ -149,13 +149,13 @@ h3{
 .button{
   border: none;
   color: white;
-  padding: 20%;
+  padding: 10%;
   margin: 8%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 45px;
-  border-radius: 15%;
+  border-radius: 60px;
   width: 200%;
 }
 

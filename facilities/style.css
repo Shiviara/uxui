@@ -19,6 +19,7 @@ body{
     flex-direction: column;
     align-items: center;
     margin-left: 20%;
+    margin-right: 10%;
 }
 .container2{
     display: flex;
