@@ -16,6 +16,11 @@ body{
     margin: 0;
 }
 
+.top-content {
+  display: flex;
+  justify-content: space-between;
+}
+
  /* fonts*/
 h1{
     font: var(--heading);
