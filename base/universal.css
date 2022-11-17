@@ -34,14 +34,6 @@ h2{
     margin-top: 6%;
 }
 
-h3{
-  font: var(--bodytext);
-  font-size: 60px;
-  font-weight: bold;
-  color: grey;
-  margin: 0px;
-}
-
  /* nav bar */
   .sidenav {
     height: 100%;
