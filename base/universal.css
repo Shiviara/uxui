@@ -145,6 +145,10 @@ h3{
     justify-content: space-between;
   }
 
+  .lang {
+    display: none;
+  }
+
  /* announcements */
   p {
     font-size: 20px;

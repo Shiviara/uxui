@@ -121,10 +121,6 @@ main {
         color: rgb(255, 255, 255);
         
     }
-    
-    .lang{
-        visibility: hidden;
-    }
 
     .hiddenfirsttext, .secondText, .downText, .clickme {
         position: relative;
