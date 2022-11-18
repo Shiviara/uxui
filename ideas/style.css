@@ -120,6 +120,7 @@ main {
         background-color: rgba(255, 255, 255, 0.297);
         color: rgb(255, 255, 255);
     }
+}
     
         a:link {
             text-decoration: none;
@@ -168,13 +169,3 @@ line-height: 80%;
     font-size: 24px;
 }
 
-
-
-
-
-
-
-
-
-
-}
