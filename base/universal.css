@@ -64,6 +64,7 @@ h3{
     flex-wrap: nowrap;
     padding: 2%;
     padding-top: 0;
+    box-sizing: unset;
   }
 
   main{
