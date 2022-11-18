@@ -67,6 +67,10 @@ article {
     font-weight: normal;
 }
 
+.lang {
+    display: block;
+}
+
 /*Read more/less */
 #more {
     display: none;
