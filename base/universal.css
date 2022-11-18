@@ -74,6 +74,8 @@ h3{
   .lang {
     margin-top: 2vh;
     margin-right: 2vw;
+    width: 100px;
+    height: 100px;
   }
 
   .icon{

@@ -126,11 +126,6 @@ main {
             text-decoration: none;
           }
         
-    
-    
-    .lang{
-        visibility: hidden;
-    }
 
     .hiddenfirsttext, .secondText, .downText, .clickme {
         position: relative;
