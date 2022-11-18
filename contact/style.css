@@ -83,6 +83,7 @@ p{
   body {
     background-color: #7683a2;
     background-size: cover;
+    width: 133vw;
   }
 
   .contacts-wrapper {
@@ -98,7 +99,7 @@ p{
   }
   main {
     margin-bottom: 15vh;
-    width: 133vw;
+
   }
   .contacts {
     width: auto;
