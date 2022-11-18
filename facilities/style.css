@@ -12,6 +12,7 @@ body{
     display: flex;
     justify-content: space-between;
     width: 87vw;
+    height: auto;
 }
 
 .container{
@@ -39,12 +40,12 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(248, 204, 151, 0.5);
     z-index: 2;
     cursor: pointer;
   }
   
-  #text{
+#text{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -52,5 +53,12 @@ body{
     color: white;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
-  }
+}
 
+h6{
+    margin: 2%;
+}
+
+p{
+    font-size: 25px;
+}
