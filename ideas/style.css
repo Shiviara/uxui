@@ -109,18 +109,17 @@ main {
     .clickme {
         display: block;
         margin: auto;
-        margin-top: 10%;
-        padding: 3%;
+        margin-top: 20%;
+        padding: 2%;
         border: none;
         outline: none;
         border-radius: 40px;
         overflow: hidden;
-        width: 70%;
+        width: 80%;
         font: normal normal 40px/53px Segoe UI;
         background-color: rgba(255, 255, 255, 0.297);
         color: rgb(255, 255, 255);
     }
-}
     
         a:link {
             text-decoration: none;
@@ -133,15 +132,15 @@ main {
         right: -5%;
     }
 
-    .herefirst, .heresecond{ 
-        line-height: 0;
+    .firstText, .secondText{ 
+        line-height: 2;
         position: relative;
         top: 25px;
     }
 
     .downText{
     text-align: center;
-    margin-top: 30%;
+    margin-top: 50%;
     letter-spacing: 2px;
     color: #FFFFFF;
     opacity: 1;
@@ -149,7 +148,7 @@ main {
     }
 
 .hiddenfirsttext, .secondText{
-line-height: 80%;
+line-height: 0%;
 }
 
 #herefirst{
@@ -157,10 +156,23 @@ line-height: 80%;
 }
 
 #heresecond{
-    font-size: 24px;
+    font-size: 18px;
+    line-height: 130%;
 }
 
 #herelast{
     font-size: 20px;
 }
 
+
+.button__text{
+    font-size: 80%;
+}
+
+
+
+
+
+
+
+}
