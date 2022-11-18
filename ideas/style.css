@@ -101,8 +101,7 @@ main {
         letter-spacing: 2px;
         color: #FFFFFF;
         opacity: 1;
-        font: bold normal normal 40px/53px Segoe UI;
-        
+        font-weight: bold;     
         
     }
     
@@ -110,7 +109,7 @@ main {
     .clickme {
         display: block;
         margin: auto;
-        margin-top: 30%;
+        margin-top: 20%;
         padding: 3%;
         border: none;
         outline: none;
@@ -123,8 +122,8 @@ main {
         
     }
     
-    .lsw{
-        display: none;
+    .lang{
+        visibility: hidden;
     }
 
     .hiddenfirsttext, .secondText, .downText, .clickme {
@@ -148,7 +147,9 @@ main {
     line-height: normal;
     }
 
-
+.hiddenfirsttext, .secondText{
+line-height: 80%;
+}
 
 
 
