@@ -119,8 +119,13 @@ main {
         font: normal normal 40px/53px Segoe UI;
         background-color: rgba(255, 255, 255, 0.297);
         color: rgb(255, 255, 255);
-        
     }
+    
+        a:link {
+            text-decoration: none;
+          }
+        
+    
     
     .lang{
         visibility: hidden;
