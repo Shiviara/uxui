@@ -36,6 +36,11 @@ body{
     margin-top: 90px; 
 }
 
+.hiddenfirsttext{
+    display: none;
+}
+
+
 .downText {
     text-align: center;
     font: italic normal normal 40px/53px Segoe UI;
@@ -65,3 +70,97 @@ body{
 main {
     width: 87vw;
 }
+
+.clickme{
+    display: none;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    body{
+        background-image: url(../images/mobile/id.mob.background.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: fixed;
+        }
+    
+    .qr{
+        display:none;
+    }
+
+    .firstText{
+        display: none;
+    }
+    
+    
+    .hiddenfirsttext{
+        display: block;
+        text-align: center;
+        margin-top: 25%;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        opacity: 1;
+        font-weight: bold;     
+        
+    }
+    
+
+    .clickme {
+        display: block;
+        margin: auto;
+        margin-top: 10%;
+        padding: 3%;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        overflow: hidden;
+        width: 70%;
+        font: normal normal 40px/53px Segoe UI;
+        background-color: rgba(255, 255, 255, 0.297);
+        color: rgb(255, 255, 255);
+    }
+}
+    
+        a:link {
+            text-decoration: none;
+          }
+        
+
+    .hiddenfirsttext, .secondText, .downText, .clickme {
+        position: relative;
+        top: auto;
+        right: -5%;
+    }
+
+    .herefirst, .heresecond{ 
+        line-height: 0;
+        position: relative;
+        top: 25px;
+    }
+
+    .downText{
+    text-align: center;
+    margin-top: 30%;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    opacity: 1;
+    line-height: normal;
+    }
+
+.hiddenfirsttext, .secondText{
+line-height: 80%;
+}
+
+#herefirst{
+    font-size: 30px;
+}
+
+#heresecond{
+    font-size: 24px;
+}
+
+#herelast{
+    font-size: 20px;
+}
+

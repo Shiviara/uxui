@@ -49,7 +49,7 @@ main {
 
 article {
     overflow: auto;
-    height: 76vh;;
+    height: 79vh;;
 }
 
 .AnHeading {
@@ -65,6 +65,10 @@ article {
     color: #A8A8A8;
     margin: 0;
     font-weight: normal;
+}
+
+.lang {
+    display: block;
 }
 
 /*Read more/less */

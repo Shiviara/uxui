@@ -64,6 +64,7 @@ h3{
     flex-wrap: nowrap;
     padding: 2%;
     padding-top: 0;
+    box-sizing: unset;
   }
 
   main{
@@ -71,10 +72,10 @@ h3{
   }
 
   .lang {
-    width: 7%;
-    height: 7%;
     margin-top: 2vh;
     margin-right: 2vw;
+    width: 100px;
+    height: 100px;
   }
 
   .icon{
@@ -142,6 +143,10 @@ h3{
   .top-content {
     display: flex;
     justify-content: space-between;
+  }
+
+  .lang {
+    display: none;
   }
 
  /* announcements */

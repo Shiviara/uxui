@@ -70,6 +70,7 @@ h4 {
 }
 p{
   font-size: 40px;
+  margin: 10px;
 }
 
 .f2{
@@ -92,9 +93,6 @@ p{
     display: inline;
   }
 
-  .lang {
-    display: none;
-  }
   .last {
     margin-left: 8%;
   }
@@ -118,7 +116,7 @@ img.c-icons{
   height: 20px;
 }
 .f2{
-  width: 300px;
+  width: 200px;
 }
 .top2{
   gap:0;
