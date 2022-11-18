@@ -29,17 +29,14 @@
 <main>
     <div id="calendar-wrap">
 
-        <i class="fas fa-angle-left
-                prev"></i>
+        
         <header>
             <section class="MobHeading">
             <a href="../front-page/index.html" ><img src="../images/icons/home.png" alt="home page" id="MobHome"></a>
             <h2>November 2022</h2>
             </section>
         </header>
-        <i class="fas fa-angle-right
-                next"></i>
-
+        
         <div id="calendar">
             <ul class="weekdays">
                 <li>Mon</li>
@@ -151,7 +148,14 @@
     				</li>
 
     				<li class="day">
-    					<div class="date">21</div>    					
+    					<div class="date">21</div>
+                        <button class="open-button">open</button>  
+                        
+                        <dialog class="modal" id="modal">
+                            <h2>Book</h2>
+                            <p>Ready?</p>
+                            <button class="close-button">Book</button>
+                        </dialog>
     				</li>
 
     				<li class="day">

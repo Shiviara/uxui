@@ -16,3 +16,6 @@ const NavBar = `
 `
 
  document.getElementById("nav").innerHTML= NavBar
+
+
+ 

@@ -86,6 +86,7 @@ p{
 
   .contacts-wrapper {
     display: block;
+    margin-right: 0;
   }
   .info {
     display: inline;
@@ -103,5 +104,24 @@ p{
   .contacts {
     width: auto;
     margin-right: 3vw;
+    width:400px ;
   }
+  h4{
+    font-size: 20px;
+  }
+  .top2 img {
+    width: 80px;
+    height: 102px;
 }
+img.c-icons{
+  width: 20px;
+  height: 20px;
+}
+.f2{
+  width: 300px;
+}
+top2{
+  gap:0;
+}
+}
+
