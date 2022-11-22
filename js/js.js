@@ -1,7 +1,7 @@
 /**
  * file: js.js
  */
- console.log("Hi from js.js")
+ console.log("Hi from js.js");
 
  //nav bar
 const NavBar = `
@@ -13,6 +13,6 @@ const NavBar = `
     <a href="../ideas/ideas.html"><img src="../images/icons/nav.id.png" class="icon" alt="post ideas"></a>
     <a href ="../contact/contact.html"><img src="../images/icons/nav.con.png" class="icon" alt="contact"></a>
     </div>
-`
+`;
 
- document.getElementById("nav").innerHTML= NavBar
+ document.getElementById("nav").innerHTML= NavBar;
