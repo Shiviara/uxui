@@ -16,6 +16,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     position: fixed;
+    background-color: #87292B;
 }
 
 h3{
@@ -29,6 +30,11 @@ h3{
     background-color: white;
     margin-bottom: 4%;
     margin-right: 3%;
+}
+
+article {
+    overflow: auto;
+    height: 79vh;;
 }
 
 p {
@@ -45,11 +51,6 @@ em {
 
 main {
     overflow: auto;
-}
-
-article {
-    overflow: auto;
-    height: 79vh;;
 }
 
 .AnHeading {

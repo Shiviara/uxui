@@ -83,12 +83,10 @@ p{
   body {
     background-color: #7683a2;
     background-size: cover;
-    width: 133vw;
   }
 
   .contacts-wrapper {
     display: block;
-    margin-right: 0;
   }
   .info {
     display: inline;
@@ -102,9 +100,18 @@ p{
 
   }
   .contacts {
-    width: auto;
+    width:100% ;
     margin-right: 3vw;
-    width:400px ;
+    padding: 7px;
+  }
+  .alarm{
+    width: auto;
+  }
+  .last{
+    margin: 0;
+  }
+  p{
+    margin-left: 0;
   }
   h4{
     font-size: 20px;
