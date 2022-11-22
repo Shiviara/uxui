@@ -32,6 +32,11 @@ h3{
     margin-right: 3%;
 }
 
+article {
+    overflow: auto;
+    height: 79vh;;
+}
+
 p {
     font-size: 40px;
     color: black;
@@ -46,11 +51,6 @@ em {
 
 main {
     overflow: auto;
-}
-
-article {
-    overflow: auto;
-    height: 79vh;;
 }
 
 .AnHeading {
