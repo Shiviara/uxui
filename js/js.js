@@ -6,7 +6,7 @@
  //nav bar
 const NavBar = `
 <div class="sidenav">
-    <a href="../front-page/frpage.html"><img src="../images/icons/home.png" class="icon" id="home" alt="home page"></a>
+    <a href="../index.html"><img src="../images/icons/home.png" class="icon" id="home" alt="home page"></a>
     <a href ="../calendar/calendar.html"><img src="../images/icons/nav.cal.png" class="icon" alt="calendar"></a>
     <a href="../announcements/announcements.html"><img src="../images/icons/nav.an.png" class="icon" alt="announcements"></a>
     <a href="../facilities/facilities.html"><img src="../images/icons/nav.map.png" class="icon" alt="facilities"></a>
