@@ -1,8 +1,8 @@
 /* Root */
-@import url("../base/universal.css");
+@import url("universal.css");
 
 body{
-    background-image: url(../images/map.background.png);
+    background-image: url(images/map.background.png);
     background-repeat: no-repeat;
     background-size: 100%;
     position: fixed;

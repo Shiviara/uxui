@@ -1,5 +1,5 @@
 body{
-    background-image: url(../images/fr.background.png);
+    background-image: url(images/fr.background.png);
     background-repeat: no-repeat;
     background-size: 100%;
     position: fixed;
@@ -22,7 +22,7 @@ body{
 
 @media only screen and (max-width: 800px) {
     body{
-    background-image: url(../images/mobile/fr.mob.background.png);
+    background-image: url(images/mobile/fr.mob.background.png);
     }
 
     #back {
